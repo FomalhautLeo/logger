@@ -35,7 +35,7 @@ public:
     }
 
 private:
-    Logger() = default;
+    Logger() : session_num_(0), item_num_(nullptr), log_ptr_(nullptr) { }
     Logger(const Logger& other) = delete;
 
     void GetLogPtr();

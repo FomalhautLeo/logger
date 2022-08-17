@@ -1,4 +1,5 @@
 # build files
+.xmake/
 build/
 
 # install files

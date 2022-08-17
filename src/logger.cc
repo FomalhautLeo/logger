@@ -87,7 +87,7 @@ void Logger::GetLogPtr() {
     item_num_ += session_num_;
 
     // 获取对应session的log指针
-    log_ptr_ = addr + ((session_num_ + 1)* config::kSessionBlockSize);
+    log_ptr_ = addr + ((session_num_ + 1) * config::kSessionBlockSize);
 }
 
 }  // namespace logger
