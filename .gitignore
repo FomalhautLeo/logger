@@ -1,0 +1,10 @@
+# build files
+build/
+
+# install files
+install/
+
+# test files
+*.sock
+*.log
+*.sh

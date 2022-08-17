@@ -1,0 +1,21 @@
+target("server-test")
+    set_targetdir("$(projectdir)/install")
+    add_includedirs("$(projectdir)")
+    set_kind("binary")
+    add_deps("logger")
+    add_files("server_test.cc")
+
+target("log-test1")
+    set_targetdir("$(projectdir)/install")
+    add_includedirs("$(projectdir)")
+    set_kind("binary")
+    add_deps("logger")
+    add_files("log_test1.cc")
+
+
+target("log-test2")
+    set_targetdir("$(projectdir)/install")
+    add_includedirs("$(projectdir)")
+    set_kind("binary")
+    add_deps("logger")
+    add_files("log_test2.cc")
