@@ -1,10 +1,6 @@
-set_languages("c++20")
+add_rules("mode.debug", "mode.release")
 
-add_cxxflags(
-    "-W",
-    "-g",
-    "-Wall"
-)
+set_languages("c++20")
 
 target("logger")
     set_kind("static")
