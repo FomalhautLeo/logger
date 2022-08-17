@@ -1,7 +1,5 @@
 #pragma once
 
-#include <stdint.h>
-
 #include "include/log_config.h"
 
 namespace logger {

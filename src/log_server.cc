@@ -13,7 +13,6 @@
 #include <iostream>
 #include <thread>
 
-#include "include/log_config.h"
 #include "include/sys.h"
 
 namespace logger {

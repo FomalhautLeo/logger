@@ -27,16 +27,4 @@ constexpr char   kRegister = 'R';        // 注册请求
 
 }  // namespace comm
 
-constexpr int DEBUG = 0;
-constexpr int INFO  = 1;
-constexpr int WARN  = 2;
-constexpr int ERROR = 3;
-
-constexpr char* levels[] {
-    "DEBUG",
-    "INFO",
-    "WARN",
-    "ERROR"
-};
-
 }  // namespace logger
